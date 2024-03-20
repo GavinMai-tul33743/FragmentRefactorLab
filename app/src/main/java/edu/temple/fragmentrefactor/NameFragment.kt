@@ -18,7 +18,7 @@ class NameFragment : Fragment() {
             val display = findViewById<TextView>(R.id.displayTextView)
             val typeText = findViewById<TextView>(R.id.nameEditText)
             findViewById<Button>(R.id.changeButton).setOnClickListener {
-                display.text = "Hello + ${typeText.text}"
+                display.text = "Hello ${typeText.text}"
             }
         }
     }
